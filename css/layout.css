@@ -1,0 +1,93 @@
+#tabArea {
+    height: 33px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.tab {
+    background: #828282;
+    height: 40px;
+    /* width: 170px; */
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #c4c4c4;
+}
+
+.tabText {
+    color: #fff;
+    font-family: 'open_sansregular',sans-serif;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    word-wrap: break-word;
+    padding: 6px 5px 0px 7px;
+	height: 45px;
+}
+
+
+#banner {
+    /* height: 115px; */
+    width: 100%;
+    background-color: #444;
+}
+
+#panelTools {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  min-height: 30px;
+  width: 100%;
+  display: block;
+  clear: both; }
+
+.panelTool {
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 26px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  border-radius: 13px; }
+
+/*Added hover to match the out-of-the-box hover for the home and locate buttons*/
+.no-touch .panelTool:hover {
+  background-color: transparent;
+  background-color: rgba(102, 102, 102, 0.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E6666666,endColorstr=#E6666666);
+  zoom: 1; }
+
+.panelToolActive {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4D000000,endColorstr=#4D000000);
+  zoom: 1; }
+
+.tool {
+  margin: 1px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer; }
+
+#panelHome {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-left: 1px;
+  margin-top: 3px; }
+
+#panelLocate {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-left: 0px;
+  margin-top: 3px; }
+  
+.legend {
+  margin-top: 80px; 
+}
